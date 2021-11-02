@@ -60,7 +60,7 @@ NOP
 NOP
 // so much NOP
 
-.org 0x38E000 - 0x350
+.org 0x3F79B0
 der_cert_start:
 .incbin "rootca.der"
 der_cert_end:
